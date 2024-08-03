@@ -1,0 +1,84 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: padrao;
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Semi;
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --P: padrao, Verdana, Geneva, Tahoma, sans-serif;
+    --S: Semi, Verdana, Geneva, Tahoma, sans-serif;
+    --B: Bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--Grey-900);
+    font-family: var(--P);
+}
+
+main{
+    width: 300px;
+    background-color: var(--Grey-800);
+    padding: 0px 50px;
+    height: min-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    color: var(--White);
+    text-align: center;
+}
+
+img{
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+}
+
+h1{
+    font-family: var(--S);
+    margin-top: 10px;
+}
+
+address{
+    color: var(--Green);
+    font-family:  var(--S);
+    font-style: normal;
+}
+
+p{
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+}
+
+div{
+    font-family: var(--B);
+    background-color: var(--Grey-700);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div:hover{
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
