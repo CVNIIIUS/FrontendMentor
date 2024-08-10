@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: padrao;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+    
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    --padrao:padrao, Arial, Helvetica, sans-serif;
+    --titulo: titulos, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--padrao);
+}
+
+body{
+    background-color: var(--Stone-100);
+}
+
+main{
+    background-color: var(--White);
+    margin: auto;
+    max-width: 400px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+h1{
+    color: var(--Stone-900);
+}
+
+p, li{
+    font-size: 1rem;
+    margin: 20px 0;
+    color: var(--Stone-600);
+}
+
+h1, h2{
+    font-family: var(--titulo);
+    margin: 10px 0;
+}
+
+section{
+    background-color: var(--Rose-50);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3, li::marker{
+    color: var(--Rose-800);
+}
+
+li{
+    list-style-position: inside;
+}
+
+h2{
+    color: var(--Brown-800);
+}
+
+hr{
+    border-color: var(--Stone-150);
+    margin: 20px 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 25rem;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: .5rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
+}
+
+.right{
+    text-indent: 9rem;
+    color: var(--Brown-800);
+    font-weight: 600;
+}
