@@ -7,7 +7,8 @@
 [Socials links profile/Links de redes sociais](https://viny-archer.github.io/FrontendMentor/social-links-profile-main/) <br>
 [Order Summary/ordem de Sumário](https://viny-archer.github.io/FrontendMentor/order-summary-component-main/) <br>
 [Blog preview/pré-visualização do blog](https://viny-archer.github.io/FrontendMentor/blog-preview-card-main/) <br>
-[Nft preview card/pré-visualização do cartão de NFT](https://viny-archer.github.io/FrontendMentor/nft-preview-card-component-main/) 
+[Nft preview card/pré-visualização do cartão de NFT](https://viny-archer.github.io/FrontendMentor/nft-preview-card-component-main/) <br>
+[profile card component/componente do cartão de perfil principal](https://viny-archer.github.io/FrontendMentor/profile-card-component-main/) <br>
 
 
 ### ainda terá mais sites para colocar futuramente/ There will still be more sites to put in the future
