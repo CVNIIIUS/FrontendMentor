@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+/* Configurações gerais */
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+    --Big: "Big Shoulders Display",Verdana, Helvetica, sans-serif;
+    --Deca: "Lexend Deca",Verdana, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--Very-light-gray);
+}
+
+section{
+    margin: auto;
+    width: 230px;
+    padding: 40px;
+}
+
+h1{
+    color: var(--Very-light-gray);
+    font-family: var(--Big);
+    font-weight: 700;
+}
+
+p{
+    font-size: 15px;
+    color: var(--Transparent-white);
+    margin: 20px 0;
+    font-family: var(--Deca);
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+    width: fit-content;
+    border-radius: 20px;
+    font-family: var(--Deca);
+    background-color: var(--Very-light-gray);
+    display: block;
+    font-weight: 400;
+}
+
+#sedans{
+    background: var(--Bright-orange);
+}
+
+#sedans_button{
+    color: var(--Bright-orange);
+}
+
+#suvs{
+    background-color: var(--Dark-cyan);
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+#suv_button{
+    color: var(--Dark-cyan);
+}
+
+#luxury{
+    background-color: var(--Very-dark-cyan);
+}
+
+#luxury_button{
+    color: var(--Very-dark-cyan);
+}
+
+/* Configurações paisagem */
+
+@media screen and (orientation:landscape) {
+    section{
+        display: inline-block;
+    }
+
+    main{
+        margin-top: 150px;
+        margin-left: 250px;
+    }
+}
