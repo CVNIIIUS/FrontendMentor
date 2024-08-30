@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --M: Montserrat, Arial, Helvetica, sans-serif;
+    --F: Fraunces, 'Times New Roman', Times, serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Configurações padrão */
+
+body{
+    background-color: var(--Cream);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--White);
+    width: 375px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+#product{
+    width: 415px;
+    margin-left: -20px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#perfume{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+p{
+    font-size: 14px;
+    color: var(--Dark-grayish-blue);
+    font-family: var(--M);
+    margin: 10px 0;
+}
+
+h1{
+    font-family: var(--F);
+    margin: 10px 0;
+    color: var(--Very-dark-blue);
+}
+
+#price_A{
+    font-family: var(--F);
+    color: var(--Dark-cyan);
+    font-size: xx-large;
+    font-weight: 700;
+    display: inline;
+}
+
+#price_B{
+    display: inline;
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+    font-size: 14px;
+    font-family: var(--M);
+    font: 700;
+}
+
+a{
+    display: block;
+    background-color: var(--Dark-cyan);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--M);
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+a:hover{
+    background-color: rgb(31, 66, 53);
+   
+}
+
+/* Configuração para modo paisagem*/
+
+@media screen and (orientation:landscape) {
+    img{display: none;}
+
+    main{
+        background: white url(images/image-product-desktop.jpg) no-repeat;
+        background-size: 60% 100%;
+        width: 600px;
+        height: 500px;
+    }
+
+    section{
+        margin-left: 66%;
+        margin-top: 30px;
+    }
+
+    #section{
+        margin: 20px 0;
+    }
+
+    h1{
+        margin: 20px 0;
+    }
+
+    #info{
+        margin: 20px 0;
+    }
+
+    a{
+        margin: 50px 0;
+    }
+}
