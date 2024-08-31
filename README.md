@@ -10,7 +10,7 @@
 [Nft preview card/pré-visualização do cartão de NFT](https://viny-archer.github.io/FrontendMentor/nft-preview-card-component-main/) <br>
 [profile card component/componente do cartão de perfil principal](https://viny-archer.github.io/FrontendMentor/profile-card-component-main/) <br>
 [Product preview card component main/Pre-visualização do cartão de produto principal](https://viny-archer.github.io/FrontendMentor/product-preview-card-component-main/) <br>
-[3-column-preview-card-component-main/ Pré-visualização de 3 colunas do componente principal](https://viny-archer.github.io/FrontendMentor/3-column-preview-card-component-main/)
-
+[3-column-preview-card-component-main/ Pré-visualização de 3 colunas do componente principal](https://viny-archer.github.io/FrontendMentor/3-column-preview-card-component-main/) <br>
+[stats-preview-card-component-main/ Pré-visualização do componte de status principal](https://viny-archer.github.io/FrontendMentor/stats-preview-card-component-main/) 
 
 ### ainda terá mais sites para colocar futuramente/ There will still be more sites to put in the future
