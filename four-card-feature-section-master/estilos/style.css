@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --P: Poppins, Helvetica, Verdana, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--P);
+}
+
+/* configurações  normais*/
+
+body{
+    background-color: var(--Very-Light-Gray);
+    text-align: center;
+}
+
+h1{
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+    margin-top: 40px;
+}
+
+span, h2{
+    font-weight: 600;
+}
+
+p{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+
+#p_main{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px black;
+}
+
+section h2, section p{
+    text-align: left;
+}
+
+section p{
+    margin: 10px 0;
+}
+
+img{
+    margin: 10px 0;
+}
+
+#super{
+    border-top: 10px solid var(--Cyan);
+}
+
+#builder{
+    border-top: 10px solid var(--Red);
+}
+
+#karma{
+    border-top: 10px solid var(--Orange);
+}
+
+#calc{
+    border-top: 10px solid var(--Blue);
+}
+
+/* Configurações medias*/
+
+@media screen and (min-width:1300px){
+    
+    #p_main{
+        width: 500px;
+    }
+
+    section{
+        width: 250px;
+    }
+
+    #super{
+        float: left;
+        margin-top: 160px;
+        margin-left: 20%;
+    }
+
+    #calc{
+        float: right;
+        margin-top: -425px;
+        margin-right: 20%;
+    }
+}
