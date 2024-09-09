@@ -12,6 +12,8 @@
 [Product preview card component main/Pre-visualização do cartão de produto principal](https://viny-archer.github.io/FrontendMentor/product-preview-card-component-main/) <br>
 [3-column-preview-card-component-main/ Pré-visualização de 3 colunas do componente principal](https://viny-archer.github.io/FrontendMentor/3-column-preview-card-component-main/) <br>
 [stats-preview-card-component-main/ Pré-visualização do componte de status principal](https://viny-archer.github.io/FrontendMentor/stats-preview-card-component-main/) <br>
-[huddle landing page with a single introductory section/página de aterrissagem com uma única seção introdutória](https://viny-archer.github.io/FrontendMentor/huddle-landing-page-with-single-introductory-section-master/)
+[huddle landing page with a single introductory section/página de aterrissagem com uma única seção introdutória](https://viny-archer.github.io/FrontendMentor/huddle-landing-page-with-single-introductory-section-master/) <br>
+[social-proof-section-master/prova-social-da-seção-mestra](https://viny-archer.github.io/FrontendMentor/social-proof-section-master/) <br>
+[four-card-feature-section-master/cartão de quatro seções mestra](https://viny-archer.github.io/FrontendMentor/four-card-feature-section-master/)
 
 ### ainda terá mais sites para colocar futuramente/ There will still be more sites to put in the future
