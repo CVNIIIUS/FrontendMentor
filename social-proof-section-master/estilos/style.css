@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan",Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    text-align: center;
+    font-size: 15px;
+}
+
+h1{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: xx-large;
+    width: 500px;
+    color: var(--Very-Dark-Magenta);
+}
+
+#info{
+    width: 275px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 20px;
+    color: var(--Dark-Grayish-Magenta);
+}
+
+div{
+    background-color: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 275px;
+    font-weight: 500;
+}
+
+section{
+    background-color: var(--Very-Dark-Magenta);
+    width: 275px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+
+section img{
+    border-radius: 100%;
+    width: 30px;
+    display: inline-block;
+}
+
+hgroup{
+    display: inline-block;
+}
+
+h2{
+    color: white;
+    font-weight: 500;
+}
+
+h3{
+    font-weight: 500;
+    color: var(--Soft-Pink);
+}
+
+section p{
+    color: var(--White);
+    margin-top: 10px;
+}
+
+/* Configurações medias */
+
+@media screen and (min-width: 1440px) {
+    body{
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    }
+
+    h1{
+        text-align: left;
+        font-size: 50px;
+        width: 400px;
+        top: 50px;
+        left: 175px;
+        position: absolute;
+    }
+
+    #info{
+        position: absolute;
+        left: 175px;
+        top: 225px;
+        width: 375px;
+        text-align: justify;
+    }
+
+    div{
+        position: absolute;
+        right: 0;
+        top: 100px;
+        width: auto;
+    }
+
+    div p{
+        display: inline;
+        margin-left: 10px;
+    }
+
+    #right_1{
+        right: 400px;
+    }
+
+    #right_2{
+        right: 300px;
+        top: 180px;
+    }
+
+    #right_3{
+        right: 200px;
+        top: 260px;
+    }
+
+    section{
+        position: absolute;
+        bottom: 0;
+    }
+
+    #bottom_1{
+        bottom: 100px;
+        left: 175px;
+    }
+
+    #bottom_2{
+        bottom: 80px;
+        left: 475px;
+    }
+
+    #bottom_3{
+        left: 775px;
+        bottom: 60px;
+    }
+}
