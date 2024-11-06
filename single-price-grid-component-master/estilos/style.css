@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    /* Cores primárias */
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+
+    /* Cores Neutras */
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+    /* Fontes */
+
+    --Karla: "Karla", Verdana, Heveltica, sans-serif; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Karla);
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Light-Gray);
+}
+
+main{
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    grid-template-rows: 1fr;
+    grid-template-columns: 325px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.137);
+}
+
+section{
+    padding: 15px 20px;
+}
+
+/* section: join */
+
+#join{
+    background-color: white;
+}
+
+#join h2{
+    color: var(--Cyan);
+}
+
+#join h3{
+    color: var(--Bright-Yellow);
+    margin: 10px 0;
+}
+
+#join p{
+    color: var(--Grayish-Blue);
+}
+
+/* section: month */
+
+#month{
+    background-color: var(--Cyan);
+}
+
+#month h2{
+    color: white;
+}
+
+#month h3{
+    color: var(--Light-Gray);
+    margin: 10px 0;
+}
+
+span{
+    color: white;
+    font-size: xx-large;
+}
+
+#month p{
+    color: white;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--Bright-Yellow);
+    padding: 15px;
+}
+
+/* section: why us? */
+
+#why{
+    background-color: hsl(179, 70%, 43%);
+}
+
+#why h2{
+    color: white;
+}
+
+#why p{
+    color: var(--Light-Gray);
+}
