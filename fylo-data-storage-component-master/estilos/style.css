@@ -100,6 +100,7 @@ h1{
     transform: translate(-50%,-50%);
     top: 100%;
     left: 50%;
+    text-transform: uppercase;
     font-size: xx-large;
     width: max-content;
     background-color: white;
@@ -128,7 +129,18 @@ h1{
 
     h1{
         top: 0%;
-        left: 90%;
-        
+        left: 90%;   
+    }
+
+    h1::after{
+        position: absolute;
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-top: 10px solid transparent;
+        border-bottom: 18px solid transparent;
+        border-right: 18px solid white;
+        right: 0;
+        top: 82%;
     }
 }
