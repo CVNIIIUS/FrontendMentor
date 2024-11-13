@@ -16,7 +16,9 @@
 [social-proof-section-master/prova-social-da-seção-mestra](https://viny-archer.github.io/FrontendMentor/social-proof-section-master/) <br>
 [four-card-feature-section-master/cartão de quatro seções mestra](https://viny-archer.github.io/FrontendMentor/four-card-feature-section-master/) <br>
 [results-summary-component-main/componente do cartão principal dos resultados em soma](https://viny-archer.github.io/FrontendMentor/results-summary-component-main/) <br>
-[sinble-price-grid-component-main/componente principal de grid com um preço](https://viny-archer.github.io/FrontendMentor/single-price-grid-component-master/)
+[single-price-grid-component-main/componente principal de grid com um preço](https://viny-archer.github.io/FrontendMentor/single-price-grid-component-master/) <br>
+[fylo-data-storage-component-master/](https://viny-archer.github.io/FrontendMentor/fylo-data-storage-component-master/fylo-mestre-de-componentes-de-armazenamento-de-dados)
+
 
 
 ### ainda terá mais sites para colocar futuramente/ There will still be more sites to put in the future
