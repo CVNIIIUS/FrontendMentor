@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    /* Cores primárias */
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* Cores neutras */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    /* Fonte */
+
+    --fonte: "Bai Jamjuree", Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 18px var(--fonte);
+    text-align: center;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    margin: 20px 0;
+    width: 250px;
+}
+
+h1,h2,h3{
+    font-weight: 600;
+}
+
+h1{
+    font-size:xx-large;
+    width: 325px;
+    margin: 10px auto;
+    color: var(--Dark-Grayish-Blue);
+}
+
+p{
+    color: var(--Grayish-Blue);
+    width: 345px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ios, .mac{
+    display: block;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    width: 345px;
+}
+
+h2{
+    font-size: x-large;
+    color: var(--Dark-Grayish-Blue);
+    width: 250px;
+    margin: 20px auto;
+}
+
+img{
+    width: 345px;
+    margin: 20px 0;
+}
+
+h3{
+    color: var(--Dark-Grayish-Blue);
+    width: 250px;
+    font-size: larger;
+    margin: 20px auto;
+}
+
+.icon{
+    width: 50px;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+footer{
+    background-color: hsla(202, 11%, 66%, 0.384);
+    padding: 20px;
+}
+
+footer img{
+    width: 100px;
+    margin: 20px auto;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    line-height: 2.5rem;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+footer picture > img{
+    display: inline-block;
+    width: 20px;
+    margin: 20px;
+}
+
+@media screen and (min-width: 1100px) {
+
+    header{
+        background-image: url(images/bg-header-desktop.png);
+        background-size: cover;
+    }
+
+    .ios, .mac{
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    h1, h2, h3{
+        width: fit-content;
+    }
+
+    p{
+        width: 685px;
+    }
+
+    #computer{
+        margin: auto;
+        width: 685px;
+        height: 380px;
+    }
+
+    #computer img{
+        width: 50%;
+        height: 325px;
+        float: left;
+    }
+
+    #computer div{
+        float: right;
+        width: 45%;
+    }
+
+    #computer h3{
+        font-size: normal;
+        width: 200px;
+    }
+
+    #computer p{
+        text-align: left;
+        width: 390px;
+    }
+
+    .options{
+        display: inline-block;
+        margin: 20px 10px;
+    }
+
+    .options p{
+        width: 400px;
+    }
+
+    picture{
+        display: block;
+    }
+
+    picture img{
+        display: inline-block;
+        width: fit-content;
+        margin: 20px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+    }
+
+    footer div{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        margin-left: 20px;
+    }
+
+    footer picture{
+        position: absolute;
+        right: 1%;
+        margin-top: 30px;
+    }
+}
